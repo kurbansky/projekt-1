@@ -1,5 +1,6 @@
 # Website Project
 > This is a template of a company website for desktop using html/css from the bootcamp.
+> Live demo [_here_](https://playful-stroopwafel-c3869b.netlify.app/)
 
 ## Table of contents
 * [General information](#general-information)
