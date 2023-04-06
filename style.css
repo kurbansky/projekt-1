@@ -18,10 +18,6 @@ body {
   cursor: not-allowed;
 }
 
-section {
-  height: 100vh;
-}
-
 .container {
   width: 960px;
   margin: 0 auto;
@@ -55,7 +51,7 @@ ul {
 }
 
 .header {
-  height: calc(100vh - 50px);
+  height: 100vh;
   background-image: url(./assets/pexels-francesco-ungaro-2325446.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -176,10 +172,11 @@ ul {
 .offers {
   background: #756657;
 }
-.offers-section {
+.heading-offers {
   font-size: 36px;
   line-height: 42px;
   color: white;
+  margin-bottom: 50px;
 }
 
 .box {
@@ -194,6 +191,7 @@ ul {
   box-shadow: 0 5px #975c038d;
   font-size: 24px;
   line-height: 28px;
+  transition-duration: 0.5s;
 }
 
 .box-container {
@@ -201,24 +199,10 @@ ul {
   grid-template-columns: auto auto auto;
   gap: 63px;
   justify-content: center;
-  padding: 50px;
 }
 
 .box:hover {
-  animation-name: grow;
-  animation-duration: 0.5s;
-}
-
-@keyframes grow {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
-  100% {
-    transform: scale(1);
-  }
+  transform: scale(1.05);
 }
 
 .circle {
@@ -239,7 +223,6 @@ footer {
 .footer .container {
   display: flex;
   height: 100%;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
